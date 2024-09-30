@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerf {
+    display: flex;
+    flex-direction: column; /* Main Axis es vertical */
+    justify-content: center; /* Alinea elementos a lo largo del Main Axis */
+    align-items: center; /* Alinea elementos a lo largo del Cross Axis */
+    height: 100vh;
+}
+
+.itemf {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Flexbox</title>
+    <style>
+        .contenedor {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .item {
+            background-color: lightcoral;
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+            /* Todos los elementos crecerán igualmente */
+            border: 2px solid blue;
+            /* Borde de los elementos flexibles */
+        }
+
+        .item.grande {
+            flex-grow: 2;
+            /* Este elemento crecerá el doble que los otros */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat, ducimus libero sed
+            dicta sit quae maxime quos voluptas laudantium et voluptatem sint molestias! Ipsam non quod optio ullam ab?
+        </div>
+        <div class="item grande">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat, ducimus libero sed
+            dicta sit quae maxime quos voluptas laudantium et voluptatem sint molestias! Ipsam non quod optio ullam ab?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat, ducimus libero sed
+            dicta sit quae maxime quos voluptas laudantium et voluptatem sint molestias! Ipsam non quod optio ullam ab?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat, ducimus libero sed
+            dicta sit quae maxime quos voluptas laudantium et voluptatem sint molestias! Ipsam non quod optio ullam ab?</div>
+        <div class="item grande">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat, ducimus libero sed
+            dicta sit quae maxime quos voluptas laudantium et voluptatem sint molestias! Ipsam non quod optio ullam ab?</div>
+    </div>
+</body>
+
+</html>

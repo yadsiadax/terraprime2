@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 10px;
+    background-color: rgb(62, 62, 149);
+    color: antiquewhite;
+ }
+ header{
+    margin: 10px 20px;
+    padding: 20px;
+    border: 2px solid royalblue;
+    background-color: rgb(54, 54, 100);
+ }
+ h1{
+    text-align: center;
+ }
+ main{
+    margin:10px 20px ;
+    padding: 10px;
+ }
+ nav{
+    margin: 5px;
+    padding: 20px;
+    padding-left: 120px;
+ }
+ a:link , a:visited{
+    background-color: #0000ff4d;
+    color: azure;
+    padding: 14px 25px;
+    border: 2px solid beige;
+ }
+ a:hover, a:active{
+    background-color: rgb(122, 122, 146);
+ }
+ .caja{
+    background-color: rgb(10, 10, 64);
+    padding: 20px;
+    margin: 10px;
+ }
+ p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
+ }
+ .caja2{
+    background-color: rgb(8, 8, 77);
+    padding: 20px;
+ }
+ .pie{
+   background-color: rgb(4, 4, 95);
+   margin: 10px;
+   padding: 10px;
+   font-size: 12px;
+   font-weight: 800;
+ }
+
